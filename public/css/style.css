@@ -1,0 +1,130 @@
+
+
+
+.bg-white {
+  background-color: var(--blue-highpar) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color:var(--blue-secondary-highpar);
+    border-color: var(--blue-highpar);
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgb(141, 136, 166);
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--blue-secondary-highpar);
+    border-color:var(--blue-highpar);
+}
+
+.navbar-light .navbar-brand {
+
+ /*  color:rgba(255,255,255,1);*/
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+ /*  color: rgba(255, 255, 255, 1) ;*/
+    font-weight: 400;
+}
+.navbar-light .navbar-nav .nav-link :hover{
+   text-decoration: underline;
+}
+.form-text-error{
+    color:rgb(211, 60, 60) !important;
+    size: 19px;
+    font-weight: bold;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #100d1a;
+    border-color: #100d1a;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgb(214 139 9 / 50%);
+}
+
+.card-counter {
+    box-shadow: 2px 2px 10px #DADADA;
+    margin: 5px;
+    padding: 20px 10px;
+    background-color: #fff;
+    height: 100px;
+    border-radius: 5px;
+    transition: .3s linear all;
+}
+
+.card-counter:hover {
+    box-shadow: 4px 4px 20px #DADADA;
+    transition: .3s linear all;
+
+}
+
+.card-counter.primary {
+    background-color: rgb(27, 26, 31);
+    color: #FFF;
+}
+
+.card-counter.danger {
+    background-color: rgb(27, 26, 31);
+    color: #FFF;
+}
+
+.card-counter.success {
+    background-color: rgb(27, 26, 31);
+    color: #FFF;
+}
+
+.card-counter.info {
+    background-color: rgb(27, 26, 31);
+    color: #FFF;
+}
+
+.card-counter i {
+    font-size: 5em;
+    opacity: 0.2;
+
+}
+
+.card-counter .count-numbers {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    font-size: 32px;
+    display: block;
+}
+
+.card-counter .count-name {
+    position: absolute;
+    right: 35px;
+    top: 65px;
+    font-style: italic;
+    text-transform: capitalize;
+    opacity: 0.5;
+    display: block;
+    font-size: 18px;
+}
+
+.form-check {
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+    padding-top: 1.7em;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: var(--blue-highpar);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
